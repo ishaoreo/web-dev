@@ -3,6 +3,28 @@ input.form-control {
 }
 
 body {
-    padding-top: 36px;
+    padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer{
+    padding-right: 25px;
+}
+
+.header{
+    padding-right: 25px;
+}
+
+.right-header {
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+.left-header{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.left-footer {
+    padding-left: 15px;
 }
