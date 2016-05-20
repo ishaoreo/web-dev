@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Widget Edit</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/style.css" rel="stylesheet" />
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <div class="text-center pull-left left-header">
+                <a href="widget-list.html" class="navbar-link">
+                     <span class="glyphicon glyphicon-chevron-left">
+                     </span>
+                </a>
+            </div>
+            <a class="navbar-brand" href="#">
+                Edit Widget
+            </a>
+            <div class="text-center pull-right right-header">
+                <a href="#" class="navbar-link">
+                     <span class="glyphicon glyphicon-ok">
+                     </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <strong>Success!</strong> Your Image has been updated
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="image-name">Name</label>
+            <input type="text" class="form-control" id="image-name" placeholder="Name" />
+        </div>
+        <div class="form-group">
+            <label for="video-text">Text</label>
+            <input type="text" id="video-text" class="form-control" placeholder="My Image" Value="Beautiful Image"/>
+        </div>
+        <div class="form-group">
+            <label for="video-url">URL</label>
+            <input type="url" id="video-url" class="form-control" Value="http://s2.vid.com/jdsfhjdhf"/>
+        </div>
+        <div class="form-group">
+            <label for="video-width">Width</label>
+            <input type="text" id="video-width" class="form-control" Value="100%"/>
+        </div>
+    </form>
+    <a class="btn btn-danger btn-block" href="widget-list.html">Delete</a>
+</div>
+
+<nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <div class="row navbar-text">
+            <div class="text-center pull-right footer">
+                <a href="../user/profile.html">
+                    <span class="glyphicon  glyphicon-user"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</body>
+</html>

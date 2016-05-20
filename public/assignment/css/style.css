@@ -42,3 +42,7 @@ body {
     border-bottom-left-radius: 8px;
     opacity: 0.7;
 }
+
+.image-upload-div {
+    padding-bottom: 40px;
+}
